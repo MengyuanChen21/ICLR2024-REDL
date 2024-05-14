@@ -4,6 +4,9 @@
 
 > **Affiliations**: Institute of Automation, Chinese Academy of Sciences
 
+### Correction:
+There is a mistake below Eq.(9). The uncertainty mass expression in R-EDL should be $u_X=\lambda C/S_X$, where the $\lambda$ was missing.
+
 ### Dependencies:
 Here we list our used requirements and dependencies.
  - GPU: GeForce RTX 3090
@@ -54,6 +57,17 @@ To train from scratch, run:
   python main.py --configid "1_mini/10w5s-redl" --suffix test
   python main.py --configid "1_mini/10w20s-redl" --suffix test
   ```
+
+## Citation
+If you find the code useful in your research, please cite:
+```
+@inproceedings{chen2023r,
+  title={R-EDL: Relaxing Nonessential Settings of Evidential Deep Learning},
+  author={Chen, Mengyuan and Gao, Junyu and Xu, Changsheng},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2023}
+}
+```
   
 ### Acknowledgement
 This project is built upon the repository of [IEDL](https://github.com/danruod/IEDL), [Posterior Network](https://github.com/sharpenb/Posterior-Network), and [Firth Bias Reduction in Few-shot Distribution Calibration](https://github.com/ehsansaleh/code_dcf). We would like to thank their authors for their excellent work. If you want to use and redistribe our code, please follow [this license](./LICENSE) as well.
