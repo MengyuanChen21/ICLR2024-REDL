@@ -22,11 +22,7 @@ Here we list our used requirements and dependencies.
 ### Data preparation:
 The required datasets of the classical setting (MNIST/FMNIST/KMNIST/CIFAR-10/CIFAR-100/SVHN) will be automatically downloaded if your server has an Internet connection.
 
-The required datasets of the few-shot setting (mini-ImageNet/CUB) can be downloaded by running: 
-```
-cd IEDL/code_fsl
-bash ./features/download.sh
-```
+The required datasets of the few-shot setting (mini-ImageNet/CUB) can be downloaded from [Google Drive](https://drive.google.com/file/d/1yJC4xABAPkidHYEddZ6ncUgKaRIxNy6L/view?usp=sharing). Please unzip the file and place its contents ("features.md5" and "WideResNet28_10_S2M2_R") directly into the "code_fsl/features/" directory.
 
 ### Pre-trained models:
 The pre-trained models of R-EDL can be downloaded from [Google Disk](https://drive.google.com/file/d/1e1qZBAJQlsHBbl3tjfIuouMqHd9UpbkK/view?usp=sharing).
