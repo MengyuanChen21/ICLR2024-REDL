@@ -1,4 +1,4 @@
-## [ICLR 2024] R-EDL: Relaxing Nonessential Settings of Evidential Deep Learning
+## [ICLR 2024 Spotlight] R-EDL: Relaxing Nonessential Settings of Evidential Deep Learning
 
 > **Authors**: Mengyuan Chen, Junyu Gao, Changsheng Xu.
 
