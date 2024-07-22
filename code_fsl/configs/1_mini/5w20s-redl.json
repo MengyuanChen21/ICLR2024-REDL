@@ -9,7 +9,7 @@
   "n_shots_list": [20],
   "n_ways_list": [5],
   "split_list": ["novel"],
-  "model_type": "genet",
+  "model_type": "menet",
   "loss_type": "SMSE",
   "act_type": "softplus",
   "fisher_coeff_list": [0.005],
