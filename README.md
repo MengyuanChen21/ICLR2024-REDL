@@ -4,6 +4,9 @@
 
 > **Affiliations**: Institute of Automation, Chinese Academy of Sciences
 
+### News:
+This repo provides a more comprehensive version of our method: [Re-EDL](https://github.com/MengyuanChen21/Re-EDL)
+
 ### Correction:
 There is a mistake below Eq.(9). The uncertainty mass expression in R-EDL should be $u_X=\lambda C/S_X$, where the $\lambda$ was missing.
 
